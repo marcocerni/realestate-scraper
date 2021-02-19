@@ -1,0 +1,26 @@
+{
+  "name": "realestate-scraper",
+  "version": "1.0.0",
+  "description": "Real Estate Scraper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcocerni/realestate-scraper.git"
+  },
+  "author": "marcocerni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcocerni/realestate-scraper/issues"
+  },
+  "homepage": "https://github.com/marcocerni/realestate-scraper#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.5",
+    "cors": "^2.8.5",
+    "get-urls": "^10.0.0",
+    "node-fetch": "^2.6.1",
+    "puppeteer": "^7.0.0"
+  }
+}
